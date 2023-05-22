@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.089">
+  <properties />
+  
+  
+            <testcase name="verifyTitle" time="0.012" classname="com.cisco.SeleniumPro.MultipleValidation" />
+                <testcase name="verifyText" time="0.051" classname="com.cisco.SeleniumPro.MultipleValidation" />
+                <testcase name="verifyLoginBtnIsBlue" time="0.026" classname="com.cisco.SeleniumPro.MultipleValidation" />
+      
+</testsuite>

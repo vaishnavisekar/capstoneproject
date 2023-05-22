@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-09T17:20:47 IST" name="Suite" finished-at="2023-03-09T17:20:52 IST" duration-ms="5771">
+    <groups>
+    </groups>
+    <test started-at="2023-03-09T17:20:47 IST" name="Test" finished-at="2023-03-09T17:20:52 IST" duration-ms="5771">
+      <class name="com.cisco.SeleniumPro.MultipleValidation">
+        <test-method is-config="true" signature="lanuchApplication()[pri:0, instance:com.cisco.SeleniumPro.MultipleValidation@40f70521]" started-at="2023-03-09T17:20:47 IST" name="lanuchApplication" finished-at="2023-03-09T17:20:52 IST" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lanuchApplication -->
+        <test-method signature="verifyTitle()[pri:1, instance:com.cisco.SeleniumPro.MultipleValidation@40f70521]" started-at="2023-03-09T17:20:52 IST" name="verifyTitle" finished-at="2023-03-09T17:20:52 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyText()[pri:2, instance:com.cisco.SeleniumPro.MultipleValidation@40f70521]" started-at="2023-03-09T17:20:52 IST" name="verifyText" finished-at="2023-03-09T17:20:52 IST" depends-on-methods="com.cisco.SeleniumPro.MultipleValidation.verifyTitle" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method signature="verifyLoginBtnIsBlue()[pri:3, instance:com.cisco.SeleniumPro.MultipleValidation@40f70521]" started-at="2023-03-09T17:20:52 IST" name="verifyLoginBtnIsBlue" finished-at="2023-03-09T17:20:52 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnIsBlue -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.cisco.SeleniumPro.MultipleValidation@40f70521]" started-at="2023-03-09T17:20:52 IST" name="closeBrowser" finished-at="2023-03-09T17:20:52 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.cisco.SeleniumPro.MultipleValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
